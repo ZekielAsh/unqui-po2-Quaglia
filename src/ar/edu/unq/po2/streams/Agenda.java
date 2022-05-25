@@ -37,6 +37,7 @@ public boolean algunoEmpiezaCon(String inicio) {
 	};
 	
 	public Stream<Persona> ordenar(){
+		Stream<Persona> stream = this.personas.stream().sorted(null);
 		return null;
 	};
 }
